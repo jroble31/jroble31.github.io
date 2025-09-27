@@ -1,2 +1,2 @@
-# jrobles03.github.io
+# jroble31.github.io
 This project is for my CIS 300 class where I will be making a website based on book related content. My website is BookishBuzz, where I am going to include afforable book options, trending books, recommendations, new releases, etc.. The main purpose of this website is to design something I enjoy for my CIS 300 class. This website is for anyone who enjoys reading or even wants to get into reading. It's suppose to be a fun and relaxing place. I want it to be used to discover a new book or even find new recommendations, or seeing what books are afforable.
