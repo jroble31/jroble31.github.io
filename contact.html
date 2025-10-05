@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | BookishBuzz</title>
+  <link rel="stylesheet" href="bookishbuzz.css">
+</head>
+<body class="contact-page">
+  <div id="wrapper">
+
+<header>
+  <img src="images/booklogo.PNG" alt="Three stacked books with green, brown, and yellow covers, arranged at angles to suggest a casual, welcoming atmosphere. No visible text. The background is plain, emphasizing the books as the central focus. The tone is warm and inviting." class="logo">
+  <h1><a href="index.html" class="site-title">BookishBuzz</a></h1>
+</header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recommendations.html">Recommendations</a></li>
+        <li><a href="new-releases.html">New Releases</a></li>
+        <li><a href="affordable-reads.html">Affordable Reads</a></li>
+        <li><a href="reader-tips.html">Reader Tips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <main>
+<section class="contact-form-section">
+  <input type="checkbox" id="submitted" hidden>
+
+  <form class="contact-form" onsubmit="event.preventDefault(); document.getElementById('submitted').checked = true;">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" placeholder="What’s this about?" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+    <button type="submit">Send Message</button>
+</form>
+
+<div class="thank-you-message">
+    <h3>Thank you for reaching out! 💌</h3>
+    <p>Your message has been sent. I’ll get back to you as soon as possible.</p>
+  </div>
+</section>
+
+    <section class="other-contact">
+        <h3>Other Ways to Connect</h3>
+            <ul>
+            <li>Email: <a href="mailto:bookishbuzz@example.com">bookishbuzz@example.com</a></li>
+            <li>Instagram: <a href="#" target="_blank">@bookishbuzzreads</a></li>
+            <li>Join our <a href="#">Newsletter</a> for updates!</li>
+            </ul>
+    </section>
+</main>
+
+<aside>
+  <h3>Explore More</h3>
+  <ul>
+    <li><a href="https://www.goodreads.com/user/show/118692217">Follow Me on Goodreads! </a></li>
+    <li><a href="new-releases.html">My Most Anticipated Books</a></li>
+    <li><a href="contact.html">Send me your recommedations!</a></li>
+    <li><a href="https://fable.co/club/fantasy-ish-book-club-with-jackie-jackieandbooks-408933734964">Join my Book Club on Fable!</a></li>
+  </ul>
+
+  <h3>Current Reads</h3>
+  <ul class="current-reads">
+    <li><em>Katabasis</em> by R.F. Kuang</li>
+    <li><em>Haunted Ever After</em> by Jen DeLuca</li>
+    <li><em>Blood Over Bright Haven</em> by M.L. Wang</li>
+  </ul>
+
+  <h3>Seasonal Reading</h3>
+  <ul>
+    <li><a href="fallreads.html">🍂 Fall Reading Recommendations 🍂</a></li>
+  </ul>
+    <h3>Coming Soon!</h3>
+  <ul>
+    <li><a href="holidayreads.html">🎄 Holiday Reads 🎄</a></li>
+    <li><a href="winterreads.html">❄️ Winter Reads ❄️</a></li>
+    <li><a href="springreads.html">🌸 Spring Reads 🌸</a></li>
+    <li><a href="summerreads.html">☀️ Summer Reads ☀️</a></li>
+  </ul>
+</aside>
+
+    </div>
+
+    <footer>
+      <p>&copy; 2025 BookishBuzz | Contact us: <a href="mailto:bookishbuzz@example.com">bookishbuzz@example.com</a></p>
+    </footer>
+
+  </div>
+</body>
+</html>

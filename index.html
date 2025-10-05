@@ -3,42 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BookishBuzz</title>
+  <title>BookishBuzz - Home</title>
   <link rel="stylesheet" href="bookishbuzz.css">
 </head>
 <body>
-  <header>
-    <h1>BookishBuzz</h1>
-  </header>
+  <div id="wrapper">
+
+<header>
+  <img src="images/booklogo.PNG" alt="Three stacked books with green, brown, and yellow covers, arranged at angles to suggest a casual, welcoming atmosphere. No visible text. The background is plain, emphasizing the books as the central focus. The tone is warm and inviting." class="logo">
+  <h1><a href="index.html" class="site-title">BookishBuzz</a></h1>
+</header>
 
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Recommendations</a></li>
-        <li><a href="#">New Releases</a></li>
-        <li><a href="#">Affordable Reads</a></li>
-        <li><a href="#">Reader Tips</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recommendations.html">Recommendations</a></li>
+        <li><a href="new-releases.html">New Releases</a></li>
+        <li><a href="affordable-reads.html">Affordable Reads</a></li>
+        <li><a href="reader-tips.html">Reader Tips</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    
+
+<div class="container">
+  <main>
+    <section class="hero-section">
+      <div class="hero-row">
+        <div class="hero-left">
+          <h2>Welcome to BookishBuzz!</h2>
+          <p>Your hub for trending books, fresh releases, affordable book finds, and tips for readers.</p>
+          <div class="hero-video">
+            <video controls>
+              <source src="videos/bookishbuzz-intro.MOV" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
 
 
-  <div class="container">
-    <main>
-      <h2>Welcome to BookishBuzz</h2>
-      <p>This is where the main content will go — book reviews, lists, etc.</p>
-    </main>
 
-    <aside>
-      <h3>Sidebar</h3>
-      <p>“Top Reads,” newsletter sign-ups, or polls.</p>
-    </aside>
+ <!-- Right Side: Trending Books -->
+    <div class="hero-right">
+      <h2>Trending Books</h2>
+      <div class="book-grid">
+        <figure>
+              <img src="images/trendingbooks/AlchemisedBookCover.jpg" alt="Alchemised Book Cover">
+              <figcaption>
+               <a href="https://www.goodreads.com/book/show/222490389-alchemised" target="_blank" rel="noopener noreferrer">
+                <strong>Alchemised by SenLinYu</strong>
+                </a><br>
+                An epic and engrossing dark fantasy following Helena Marino, a former alchemist 
+                and Resistance member with fractured memories, imprisoned by Paladia's necromancer 
+                overlords after a brutal war. Helena must fight to reclaim her past and the secrets her mind holds.
+              </figcaption>
+            </figure>
+
+            <figure>
+              <img src="images/trendingbooks/KatabasisBookCover.jpg" alt="Katabasis Book Cover">
+              <figcaption>
+                <a href="https://www.goodreads.com/book/show/210223811-katabasis" target="_blank" rel="noopener noreferrer">
+                <strong>Katabasis by R.F. Kuang</strong>
+                </a><br>
+                Two rival graduate students, Alice and Peter, must set aside their rivalry and journey 
+                into the underworld to save their professor after his death in a magical accident — perhaps 
+                at their own cost.
+              </figcaption>
+            </figure>
+
+            <figure>
+              <img src="images/trendingbooks/thesecretofsecrets.JPG" alt="The Secret of Secrets Book Cover">
+              <figcaption>
+                <a href="https://www.goodreads.com/book/show/54493573-the-witch-s-heart" target="_blank" rel="noopener noreferrer">
+                <strong>The Secret of Secrets (Robert Langdon, #6) by Dan Brown</strong>
+                </a><br>
+                Robert Langdon is drawn into a dangerous conspiracy when his romantic partner, noetic scientist 
+                Katherine Solomon, disappears along with her explosive manuscript about human consciousness
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+      </main>
+
+<aside>
+  <h3>Explore More</h3>
+  <ul>
+    <li><a href="https://www.goodreads.com/user/show/118692217">Follow Me on Goodreads! </a></li>
+    <li><a href="new-releases.html">My Most Anticipated Books</a></li>
+    <li><a href="contact.html">Send me your recommedations!</a></li>
+    <li><a href="https://fable.co/club/fantasy-ish-book-club-with-jackie-jackieandbooks-408933734964">Join my Book Club on Fable!</a></li>
+  </ul>
+
+  <h3>Current Reads</h3>
+  <ul class="current-reads">
+    <li><em>Katabasis</em> by R.F. Kuang</li>
+    <li><em>Haunted Ever After</em> by Jen DeLuca</li>
+    <li><em>Blood Over Bright Haven</em> by M.L. Wang</li>
+  </ul>
+
+  <h3>Seasonal Reading</h3>
+  <ul>
+    <li><a href="fallreads.html">🍂 Fall Reading Recommendations 🍂</a></li>
+  </ul>
+
+  <h3>Best Sellers according to "The New York Times"</h3>
+  <ul>
+    <li><a href="https://www.nytimes.com/books/best-sellers"> NYT Best Sellers </a></li>
+  </ul>
+
+  <h3>Coming Soon!</h3>
+  <ul>
+    <li><a href="holidayreads.html">🎄 Holiday Reads 🎄</a></li>
+    <li><a href="winterreads.html">❄️ Winter Reads ❄️</a></li>
+    <li><a href="springreads.html">🌸 Spring Reads 🌸</a></li>
+    <li><a href="summerreads.html">☀️ Summer Reads ☀️</a></li>
+  </ul>
+</aside>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 BookishBuzz |
+        Contact us: <a href="mailto:bookishbuzz@example.com">bookishbuzz@example.com</a>
+      </p>
+    </footer>
+
   </div>
-
-  <footer>
-    <p>&copy; 2025 BookishBuzz | 
-      Contact us:<a href="mailto:bookishbuzz@example.com"> bookishbuzz@example.com</a></p>
-  </footer>
 </body>
 </html>
