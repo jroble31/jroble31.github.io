@@ -343,7 +343,7 @@ aside ul li a:hover {
 
 body.contact-page {
   min-height: 100vh;
-  background-image: url("images/contact-bg.JPG");
+  background-image: url("images/contact-bg.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -360,7 +360,7 @@ body.contact-page {
 
 body.affordable-page {
   min-height: 100vh;
-  background-image: url("images/afforablereads-bg.jpg");
+  background-image: url("images/afforablereads-bg.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -369,7 +369,7 @@ body.affordable-page {
 }
 
 body.affordable-page #wrapper {
-  background-image: url("images/afforablereads-bg.jpg");
+  background-image: url("images/afforablereads-bg.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -392,7 +392,7 @@ body.affordable-page #wrapper {
 }
 
 body.contact-page #wrapper {
-  background-image: url("images/contact-bg.JPG");
+  background-image: url("images/contact-bg.webp");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
