@@ -90,7 +90,25 @@ nav a.active {
   background: var(--secondary);
   border-radius: 5px;
 }
-
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: var(--light);
+  color: var(--text);
+}
+th, td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background: var(--primary);
+  color: var(--light);
+}
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
 
 .container {
   display: grid;
